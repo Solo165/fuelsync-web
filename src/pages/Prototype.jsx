@@ -42,14 +42,9 @@ export default function Prototype() {
               onLoad={() => setLoaded(true)}
               allow="accelerometer; camera; gyroscope; microphone"
               style={{
-                width: '390px',
-                height: '844px',
+                width: '100%',
+                height: '100%',
                 border: 'none',
-                transform: 'scale(0.2)',
-                transformOrigin: 'top left',
-                position: 'absolute',
-                top: 0,
-                left: 0,
                 opacity: loaded ? 1 : 0,
                 transition: 'opacity 0.4s'
               }}
