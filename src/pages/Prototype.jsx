@@ -4,7 +4,10 @@ import './Prototype.css'
 export default function Prototype() {
   const [loaded, setLoaded] = useState(false)
 
-  const EXPO_URL = 'https://fuelsync-prototype.vercel.app'
+  // Change this URL to your Expo web build URL once deployed
+  // For local dev: http://localhost:8081
+  // For deployed: your Expo web URL
+  const EXPO_URL = 'http://localhost:8081'
 
   return (
     <div className="proto-page">
@@ -40,6 +43,18 @@ export default function Prototype() {
               className={`phone-iframe ${loaded ? 'visible' : ''}`}
               onLoad={() => setLoaded(true)}
               allow="accelerometer; camera; gyroscope; microphone"
+              style={{
+                width: '390px',
+                height: '844px',
+                border: 'none',
+                transform: 'scale(0.75)',
+                transformOrigin: 'top left',
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                opacity: loaded ? 1 : 0,
+                transition: 'opacity 0.4s'
+              }}
             />
           </div>
           <div className="phone-home-bar" />

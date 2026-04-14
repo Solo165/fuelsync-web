@@ -121,6 +121,7 @@
   overflow: hidden;
   position: relative;
   height: 620px;
+  width: 100%;
 }
 
 .phone-loader {
