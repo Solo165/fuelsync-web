@@ -4,10 +4,7 @@ import './Prototype.css'
 export default function Prototype() {
   const [loaded, setLoaded] = useState(false)
 
-  // Change this URL to your Expo web build URL once deployed
-  // For local dev: http://localhost:8081
-  // For deployed: your Expo web URL
-  const EXPO_URL = 'http://localhost:8081'
+  const EXPO_URL = 'https://fuelsync-prototype.vercel.app'
 
   return (
     <div className="proto-page">
