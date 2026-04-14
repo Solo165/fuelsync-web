@@ -45,7 +45,7 @@ export default function Prototype() {
                 width: '390px',
                 height: '844px',
                 border: 'none',
-                transform: 'scale(0.85)',
+                transform: 'scale(0.2)',
                 transformOrigin: 'top left',
                 position: 'absolute',
                 top: 0,
