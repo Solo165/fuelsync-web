@@ -5,6 +5,7 @@ const DOCS = [
   {
     num:'01', title:'Founder Story', color:'#7B5FFF', tier:'Foundation',
     status:'✓ Complete', statusColor:'#7B5FFF',
+    download:'/docs/FuelSync_Founder_Story.docx',
     sub:'The rice + tuna bowl origin',
     summary:'The origin of FuelSync — how losing 30kg through a single repeatable meal became the product thesis, extended by a sister\'s experience with neurodivergent kids and sharpened by firsthand work training agentic AI at Outlier.',
     sections:[
@@ -17,6 +18,7 @@ const DOCS = [
   {
     num:'02', title:'Problem & Insight', color:'#2EC4B6', tier:'Problem + Market',
     status:'✓ Complete', statusColor:'#2EC4B6',
+    download:'/docs/FuelSync_Problem_Insight.docx',
     sub:'Why diets fail, what actually works',
     summary:'A five-part argument for why the nutrition app category keeps failing — built around the founder\'s personal experience, primary survey research from 24 respondents, and the core behavioural insight that emotional attachment to specific meals, not information or willpower, drives long-term adherence.',
     sections:[
@@ -29,6 +31,7 @@ const DOCS = [
   {
     num:'03', title:'Market Opportunity', color:'#2EC4B6', tier:'Problem + Market',
     status:'✓ Complete', statusColor:'#2EC4B6',
+    download:'/docs/FuelSync_Market_Opportunity.docx',
     sub:'TAM, segments & Neuro angle',
     summary:'The total addressable market, four distinct segments, the Brisbane-first launch rationale, the NDIS revenue pathway with dollar projections, and a five-stage expansion plan from general population through to chronic condition management.',
     sections:[
@@ -205,6 +208,17 @@ export default function Docs() {
             <div className="panel-num">Document {doc.num}</div>
             <h2 className="panel-title">{doc.title}</h2>
             <p className="panel-summary">{doc.summary}</p>
+
+            {doc.download && (
+              <a
+                href={doc.download}
+                download
+                className="download-btn"
+                style={{ background: doc.color }}
+              >
+                Download full document →
+              </a>
+            )}
 
             <button
               className={`expand-btn ${detailOpen ? 'open' : ''}`}
