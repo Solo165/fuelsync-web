@@ -62,8 +62,9 @@
 }
 
 .hero-logo {
-  height: 80px;
+  height: 160px;
   width: auto;
+  max-width: 100%;
   filter: brightness(0) invert(1);
 }
 
@@ -232,7 +233,7 @@
 
 @media (max-width: 600px) {
   .hero { padding: 60px 20px 60px; }
-  .hero-logo { height: 56px; }
+  .hero-logo { height: 100px; }
   .hero-body { font-size: 16px; }
   .features { grid-template-columns: repeat(2, 1fr); padding: 0 20px 60px; }
   .feature-card { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.06); }
