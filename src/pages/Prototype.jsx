@@ -3,8 +3,6 @@ import './Prototype.css'
 
 export default function Prototype() {
   const [loaded, setLoaded] = useState(false)
-
-  
   const EXPO_URL = 'https://fuelsync-prototype.vercel.app'
 
   return (
@@ -25,7 +23,6 @@ export default function Prototype() {
       </div>
 
       <div className="phone-wrap">
-        {/* Phone shell */}
         <div className="phone">
           <div className="phone-notch" />
           <div className="phone-screen">
@@ -38,18 +35,18 @@ export default function Prototype() {
             <iframe
               src={EXPO_URL}
               title="FuelSync Prototype"
-              className={`phone-iframe ${loaded ? 'visible' : ''}`}
               onLoad={() => setLoaded(true)}
               allow="accelerometer; camera; gyroscope; microphone"
               style={{
                 width: '390px',
                 height: '844px',
                 border: 'none',
-                transform: 'scale(0.48)',
-                transformOrigin: 'top left',
+                transform: 'scale(0.735)',
+                transformOrigin: 'top center',
                 position: 'absolute',
                 top: 0,
-                left: 0,
+                left: '50%',
+                marginLeft: '-195px',
                 opacity: loaded ? 1 : 0,
                 transition: 'opacity 0.4s'
               }}
@@ -58,7 +55,6 @@ export default function Prototype() {
           <div className="phone-home-bar" />
         </div>
 
-        {/* Side notes */}
         <div className="proto-notes">
           <div className="note-card">
             <div className="note-icon">👆</div>
@@ -81,14 +77,6 @@ export default function Prototype() {
             <a href="mailto:hello@fuelsync.app" className="note-btn">Get in touch →</a>
           </div>
         </div>
-      </div>
-
-      <div className="proto-footer-note">
-        <span>⚠️</span>
-        <span>
-          To run this prototype locally, start your Expo app with{' '}
-          <code>npx expo start --web</code> and this page will connect automatically.
-        </span>
       </div>
     </div>
   )
