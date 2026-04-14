@@ -1,18 +1,14 @@
-import { useState } from 'react'
 import './Prototype.css'
 
 export default function Prototype() {
-  const [loaded, setLoaded] = useState(false)
-  const EXPO_URL = 'https://fuelsync-prototype.vercel.app'
-
   return (
     <div className="proto-page">
       <div className="proto-header">
         <div className="proto-badge">Live prototype</div>
         <h1 className="proto-title">Try FuelSync</h1>
         <p className="proto-sub">
-          This is the working prototype — onboarding, feed, and meal cards — running directly in your browser.
-          Built with React Native + Expo.
+          The working prototype — onboarding, feed, and meal cards.
+          Built with React Native + Expo. Works best on mobile.
         </p>
         <div className="proto-chips">
           <span className="chip">Onboarding</span>
@@ -22,56 +18,70 @@ export default function Prototype() {
         </div>
       </div>
 
-      <div className="phone-wrap">
-        <div className="phone">
-          <div className="phone-notch" />
-          <div className="phone-screen">
-            {!loaded && (
-              <div className="phone-loader">
-                <div className="loader-spinner" />
-                <p>Loading prototype…</p>
-              </div>
-            )}
-            <iframe
-              src={EXPO_URL}
-              title="FuelSync Prototype"
-              onLoad={() => setLoaded(true)}
-              allow="accelerometer; camera; gyroscope; microphone"
-              style={{
-                width: '100%',
-                height: '100%',
-                border: 'none',
-                opacity: loaded ? 1 : 0,
-                transition: 'opacity 0.4s',
-                position: 'absolute',
-                top: 0,
-                left: 0
-              }}
-            />
+      <div className="proto-launch">
+        <div className="proto-phone-preview">
+          <div className="proto-phone-mock">
+            <div className="proto-phone-notch" />
+            <div className="proto-phone-content">
+              <p className="proto-phone-label">FuelSync Prototype</p>
+              <p className="proto-phone-sub">Tap to open on your device</p>
+            </div>
+            <div className="proto-phone-bar" />
           </div>
-          <div className="phone-home-bar" />
         </div>
 
-        <div className="proto-notes">
-          <div className="note-card">
-            <div className="note-icon">👆</div>
-            <h3>Fully interactive</h3>
-            <p>Tap through the onboarding, browse the meal feed, and interact with meal cards — just like on your phone.</p>
+        <div className="proto-launch-info">
+          <h2 className="proto-launch-title">Open on any device</h2>
+          <p className="proto-launch-body">
+            The prototype runs as a web app — open it on your phone for the best experience,
+            or try it right here in your browser.
+          </p>
+          <div className="proto-launch-actions">
+            <a
+              href="https://fuelsync-prototype.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="proto-launch-btn"
+            >
+              Open prototype →
+            </a>
+            <a
+              href="https://fuelsync-prototype.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="proto-launch-qr"
+            >
+              Open on mobile
+            </a>
           </div>
-          <div className="note-card">
-            <div className="note-icon">⚡</div>
-            <h3>Built with Expo</h3>
-            <p>React Native app compiled for web. The same codebase that runs on iOS and Android.</p>
+
+          <div className="proto-features">
+            <div className="proto-feature">
+              <span className="proto-feature-num">01</span>
+              <div>
+                <h4>Onboarding</h4>
+                <p>Goals, metabolism, lifestyle — personalised from the start.</p>
+              </div>
+            </div>
+            <div className="proto-feature">
+              <span className="proto-feature-num">02</span>
+              <div>
+                <h4>Meal feed</h4>
+                <p>Community meal cards with upvotes and real engagement.</p>
+              </div>
+            </div>
+            <div className="proto-feature">
+              <span className="proto-feature-num">03</span>
+              <div>
+                <h4>Meal cards</h4>
+                <p>Detailed view with ingredients, cost, and community reactions.</p>
+              </div>
+            </div>
           </div>
-          <div className="note-card">
-            <div className="note-icon">🚧</div>
-            <h3>Early stage</h3>
-            <p>This is a working prototype — visuals and interactions may differ from the final product.</p>
-          </div>
-          <div className="note-card note-cta">
-            <h3>Interested in FuelSync?</h3>
-            <p>We're currently in early development and looking for early users, advisors, and investors.</p>
-            <a href="mailto:hello@fuelsync.app" className="note-btn">Get in touch →</a>
+
+          <div className="proto-note">
+            <span>🚧</span>
+            <span>Early stage prototype — visuals and interactions will evolve. Agent loop coming in Phase 2.</span>
           </div>
         </div>
       </div>
