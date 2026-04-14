@@ -84,7 +84,7 @@
 /* Phone shell */
 .phone {
   flex-shrink: 0;
-  width: 320px;
+  width: 390px;
   background: #1a1a24;
   border-radius: 44px;
   border: 2px solid var(--border3);
@@ -120,7 +120,7 @@
   border-radius: 30px;
   overflow: hidden;
   position: relative;
-  height: 620px;
+  height: 844px;
   width: 100%;
 }
 
