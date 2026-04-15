@@ -42,13 +42,15 @@ const DOCS = [
   },
   {
     num:'04', title:'Business Strategy', color:'#FF6B6B', tier:'Product',
-    status:'Needs rework', statusColor:'#FF6B6B',
-    sub:'Goals, phases, KPIs',
-    summary:'The phased plan for building, launching, and scaling FuelSync. Currently documented as a features list — needs restructuring around strategic logic and competitive differentiation.',
+    status:'✓ Complete', statusColor:'#FF6B6B',
+    download:'/docs/FuelSync_Business_Strategy.docx',
+    sub:'Market, revenue model, execution plan',
+    summary:'The strategic case for FuelSync — Australian market sizing (AUD $63–200M, 2024), competitive matrix against MyFitnessPal and Noom, revenue model with projections, 4-phase execution plan, unfair advantages, and KPIs that measure whether the core thesis is working.',
     sections:[
-      {h:'Phase 1 — 0 to 3 months', ul:['Finalise onboarding: goals, sensory profile, emotional triggers, budget','Build the One Meal engine (core differentiator)','Surveys targeting autistic routine-eaters, overwhelmed meal planners','Build early community presence on Reddit, Discord, Facebook']},
-      {h:'Phase 2 — 3 to 12 months', ul:['Launch MVP: AI meal matching + community feed','TikTok micro-content strategy','Grocery price API integration (Coles/Woolies)','NDIS provider partnerships for FuelSync Neuro']},
-      {h:'What needs to be added', p:'Competitive differentiation argument, unit economics, funding requirements, unfair advantages specific to this founder.'}
+      {h:'Market opportunity', p:'Australian diet and nutrition app market valued at AUD $63–200M in 2024, growing at 15–41% CAGR. Over half of Australians use digital health tools. MyFitnessPal alone has 280k–370k weekly active Australian users.'},
+      {h:'Revenue model', p:'Three streams: consumer freemium ($14.99/month premium), NDIS-funded FuelSync Neuro ($79/month), and creator marketplace (Year 2). Combined 12-month target: $150k–$250k ARR.'},
+      {h:'Competitive position', ul:['Competitors track calories — FuelSync tracks behaviour','No competitor has a neurodivergent mode with NDIS funding','No competitor shows real local grocery prices','Architecture built around shame-free design — structurally different, not just different features']},
+      {h:'Unfair advantages', ul:['Founder personally proved the thesis — 30kg lost on one meal','Agent-native from day one — incumbents cannot replicate without full rebuild','NDIS pathway gives access to funded revenue stream competitors cannot capture','Behavioural data moat compounds with every user interaction']}
     ]
   },
   {
