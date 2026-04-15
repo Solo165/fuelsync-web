@@ -5,7 +5,7 @@ const DOCS = [
   {
     num:'01', title:'Founder Story', color:'#7B5FFF', tier:'Foundation',
     status:'✓ Complete', statusColor:'#7B5FFF',
-    download:'/docs/FuelSync_Founder_Story.docx',
+    download:'/docs/FuelSync_Founder_Story.pdf',
     sub:'The rice + tuna bowl origin',
     summary:'The origin of FuelSync — how losing 30kg through a single repeatable meal became the product thesis, extended by a sister\'s experience with neurodivergent kids and sharpened by firsthand work training agentic AI at Outlier.',
     sections:[
@@ -18,7 +18,7 @@ const DOCS = [
   {
     num:'02', title:'Problem & Insight', color:'#2EC4B6', tier:'Problem + Market',
     status:'✓ Complete', statusColor:'#2EC4B6',
-    download:'/docs/FuelSync_Problem_Insight.docx',
+    download:'/docs/FuelSync_Problem_Insight.pdf',
     sub:'Why diets fail, what actually works',
     summary:'A five-part argument for why the nutrition app category keeps failing — built around the founder\'s personal experience, primary survey research from 24 respondents, and the core behavioural insight that emotional attachment to specific meals, not information or willpower, drives long-term adherence.',
     sections:[
@@ -31,7 +31,7 @@ const DOCS = [
   {
     num:'03', title:'Market Opportunity', color:'#2EC4B6', tier:'Problem + Market',
     status:'✓ Complete', statusColor:'#2EC4B6',
-    download:'/docs/FuelSync_Market_Opportunity.docx',
+    download:'/docs/FuelSync_Market_Opportunity.pdf',
     sub:'TAM, segments & Neuro angle',
     summary:'The total addressable market, four distinct segments, the Brisbane-first launch rationale, the NDIS revenue pathway with dollar projections, and a five-stage expansion plan from general population through to chronic condition management.',
     sections:[
@@ -43,7 +43,7 @@ const DOCS = [
   {
     num:'04', title:'Business Strategy', color:'#FF6B6B', tier:'Product',
     status:'✓ Complete', statusColor:'#FF6B6B',
-    download:'/docs/FuelSync_Business_Strategy.docx',
+    download:'/docs/FuelSync_Business_Strategy.pdf',
     sub:'Market, revenue model, execution plan',
     summary:'The strategic case for FuelSync — Australian market sizing (AUD $63–200M, 2024), competitive matrix against MyFitnessPal and Noom, revenue model with projections, 4-phase execution plan, unfair advantages, and KPIs that measure whether the core thesis is working.',
     sections:[
