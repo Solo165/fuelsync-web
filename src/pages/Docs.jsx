@@ -55,13 +55,15 @@ const DOCS = [
   },
   {
     num:'05', title:'Smart Psychology', color:'#FF6B6B', tier:'Product',
-    status:'Needs rework', statusColor:'#FF6B6B',
-    sub:'Spiral breaker, 6-meal feed',
-    summary:'The behavioural engine behind FuelSync — the 6-meal mechanic, the spiral breaker loop, and the research basis for why emotional attachment to specific foods is the #1 predictor of long-term dietary success.',
+    status:'✓ Complete', statusColor:'#FF6B6B',
+    download:'/docs/FuelSync_Smart_Psychology.pdf',
+    sub:'The what-the-hell effect, guilt loop, spiral breaker',
+    summary:'The behavioural science behind every FuelSync mechanic — five peer-reviewed psychological mechanisms that explain why diets fail and how FuelSync\'s product decisions directly counteract each one. Covers the what-the-hell effect, guilt vs shame, perceived control, social proof, and identity-based habits.',
     sections:[
-      {h:'The 6-meal mechanic', p:'Every session surfaces 6 meal options: 3 from AI reasoning over user state, 3 from real community members. Something always clicks. One becomes \'their meal\' — the anchor that stops the spiral.'},
-      {h:'The spiral breaker', p:'Big Mac → guilt → quit app → relapse. FuelSync interrupts this: Big Mac felt good → here are 6 pizza-like alternatives → user discovers a pizza bowl they love → emotional attachment forms → spiral ends.'},
-      {h:'Research backing', ul:['Emotional connection to food → 2x adherence','Variety prevents burnout — 94% adherence vs 60% rigid plans','Non-judgmental validation → 2x better habit formation']}
+      {h:'The what-the-hell effect', p:'Herman & Mack (1975): once a dieter perceives their plan as broken, self-control collapses and they eat more than non-dieters. Rigid rules amplify this. FuelSync\'s spiral breaker interrupts it by offering choices rather than scoring violations.'},
+      {h:'The guilt mechanism', p:'Mantzios et al. (2020): guilt — not the lapse itself — predicts lower intention, lower self-efficacy, and more negative reactions. Self-compassion helps by reducing guilt first. Every FuelSync post-lapse interaction is designed to eliminate guilt triggers.'},
+      {h:'The 6-meal feed', p:'Restoring perceived control after a lapse is the critical intervention point. Offering 6 realistic next options — 3 AI, 3 community — directly counteracts all-or-nothing thinking by keeping choices visible.'},
+      {h:'Community and identity', ul:['Social proof from credible peers shifts food choices more than generic recommendations — Bhatti et al. (2024)','Identity-based language ("your anchor meal", "your standard dinner") produces stronger intention-behaviour links than goal-based framing — Cecchini et al. (2025)']}
     ]
   },
   {
