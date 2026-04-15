@@ -107,13 +107,15 @@ const DOCS = [
   },
   {
     num:'10', title:'Competitive Landscape', color:'#F7B731', tier:'Missing',
-    status:'Not started', statusColor:'#F7B731',
+    status:'✓ Complete', statusColor:'#F7B731',
+    download:'/docs/FuelSync_Competitive_Landscape.pdf',
     sub:'Why not just use MyFitnessPal?',
-    summary:'The one document every investor will look for first. Why does FuelSync win against MyFitnessPal, Noom, Cronometer, and every other wellness app? The answer exists — it just needs to be structured.',
+    summary:'A systematic analysis of every major competitor — MyFitnessPal, Noom, Cronometer, Lose It!, Eat This Much, and MacroFactor — with Australian pricing, user data, known failure points, and a full 11-dimension competitive matrix showing exactly where FuelSync wins and why incumbents cannot replicate it.',
     sections:[
-      {h:'Why this matters most', p:'Before reading architecture or strategy, any investor will ask: "Why not just use what already exists?" Without a crisp answer, everything else loses credibility.'},
-      {h:'Your differentiation (draft)', ul:['Competitors track calories — FuelSync tracks behaviour','Competitors induce shame — FuelSync builds attachment','No competitor has a neurodivergent mode','No competitor owns the community-as-behaviour-anchor mechanic']},
-      {h:'What needs to be built', ul:['Competitor matrix (MyFitnessPal, Noom, Cronometer, Eat This Much)','Feature-by-feature differentiation table','Moat analysis: data, community, agent-native architecture']}
+      {h:'The category failure', p:'Every major competitor is built on the same wrong assumption — that people fail at healthy eating because they lack information. The result: 53% abandoned within 30 days, 70% within 100 days. FuelSync does not compete within this category. It replaces the category mechanic entirely.'},
+      {h:'Why MyFitnessPal loses', ul:['Progressive paywalling has alienated its core user base','Manual logging burden is unsustainable for everyday users','Calorie-centric design induces guilt after lapses — the primary failure mechanism','300,000 weekly Australian users with 70%+ abandonment = continuously replenishing FuelSync acquisition pool']},
+      {h:'Why Noom loses', ul:['Psychology-aware but implementation is still judgmental — red/yellow/green food coding triggers guilt','Coaching frequently experienced as scripted rather than personalised','Pivoting toward GLP-1 telehealth and medications — abandoning the behavioural app space']},
+      {h:'FuelSync\'s structural advantages', ul:['Agent-native architecture — incumbents cannot retrofit without full rebuild','Behavioural data moat — emotional patterns, spiral cycles, anchor meal discovery data no competitor collects','NDIS pathway — uncontested funded revenue stream, no competitor positioned to access it']}
     ]
   }
 ]
