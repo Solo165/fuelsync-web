@@ -19,38 +19,38 @@ const DOCS = [
     num:'02', title:'Problem & Insight', color:'#2EC4B6', tier:'Problem + Market',
     status:'✓ Complete', statusColor:'#2EC4B6',
     download:'/docs/FuelSync_Problem_Insight.pdf',
-    sub:'Why diets fail, what actually works',
-    summary:'A five-part argument for why the nutrition app category keeps failing — built around the founder\'s personal experience, primary survey research from 24 respondents, and the core behavioural insight that emotional attachment to specific meals, not information or willpower, drives long-term adherence.',
+    sub:'Peer-reviewed evidence for why diets fail',
+    summary:'A five-part evidence-based argument for why the nutrition app category keeps failing — built on 4 peer-reviewed studies, primary survey data from 15 targeted respondents, and the finding that guilt, not lack of information, is the primary mechanism that causes dietary failure.',
     sections:[
-      {h:'The failure pattern', p:'70–89% of health apps are abandoned within 30 days. Apps are built around tracking and information, when the real lever is emotional safety and habit formation.'},
-      {h:'The behaviour insight', p:'Research consistently shows people adhere to eating patterns they emotionally enjoy, not ones they intellectually approve of. Shame and restriction accelerate abandonment.'},
-      {h:'What\'s needed', p:'A system that finds the meals a person already has the capacity to love, builds attachment to them, and expands gradually — not one that imposes a new diet framework.'},
-      {h:'Gap in market', ul:['No app tracks emotional food attachment','No app reasons over sensory + budget + metabolic fit together','No app uses community as a behaviour anchor, not just content']}
+      {h:'The research finding', p:'53% of health apps are abandoned within 30 days (Riaz et al., 2022). 70% within 100 days (Kidman et al., 2024). The primary drivers are not technical — they are emotional: guilt, shame, poor personalisation, and the absence of attachment to specific foods.'},
+      {h:'The guilt mechanism', p:'Guilt after dietary lapses directly predicts lower intention to continue, lower self-efficacy, and more negative reactions — Mantzios et al. (2020). Apps built around scoring and failure states are actively accelerating the abandonment they are designed to prevent.'},
+      {h:'The meal repetition insight', p:'Meal repetition is sustainable when broader dietary variety is perceived — Redden & Galak (2021). One anchor meal plus rotating alternatives creates the habit loop without boredom. This is FuelSync\'s 6-meal mechanic in research form.'},
+      {h:'Survey evidence', ul:['91.7% of targeted respondents have never found their one reliable go-to meal','75% struggle with food decisions almost every day','Zero respondents said they probably would not use FuelSync','Top frustrations: time/effort (41.7%) and cost (41.7%) — both directly addressed by FuelSync']}
     ]
   },
   {
     num:'03', title:'Market Opportunity', color:'#2EC4B6', tier:'Problem + Market',
     status:'✓ Complete', statusColor:'#2EC4B6',
     download:'/docs/FuelSync_Market_Opportunity.pdf',
-    sub:'TAM, segments & Neuro angle',
-    summary:'The total addressable market, four distinct segments, the Brisbane-first launch rationale, the NDIS revenue pathway with dollar projections, and a five-stage expansion plan from general population through to chronic condition management.',
+    sub:'Australian market data, NDIS pathway, 5-stage expansion',
+    summary:'Australia-specific market sizing (AUD $63–200M in 2024, 15–41% CAGR), active user data from Sensor Tower, the Brisbane-first launch rationale, NDIS revenue projections, and a 5-stage expansion pathway from general population to chronic condition management.',
     sections:[
-      {h:'Primary segment', p:'People who want to lose weight or eat healthier but are stuck in decision fatigue, emotional eating cycles, or routine collapse. Brisbane-first as launch market.'},
-      {h:'Secondary segment', p:'Neurodivergent individuals — particularly autistic children and their families — for whom finding safe, predictable food is a daily challenge. NDIS funding pathway in Australia.'},
-      {h:'Competitive gap', ul:['MyFitnessPal: calorie-focused, shame-inducing','Noom: psychology-aware but generic, expensive','No product owns emotional + sensory + budget fit']}
+      {h:'The Australian market', p:'Valued at AUD $63–200M in 2024 (Grand View Research; Data Bridge), growing at 15–41% annually. Over 50% of Australians already use digital health tools (Healthylife/Woolworths 2025). MyFitnessPal had 279k–367k weekly active Australian users in Q1 2024 (Sensor Tower) — with a documented 70% abandonment rate that continuously replenishes FuelSync\'s acquisition pool.'},
+      {h:'NDIS revenue pathway', p:'FuelSync Neuro at $79/month per NDIS participant. At 200 participants: $189,600 ARR. At 500 participants: $474,000 ARR. No competitor is positioned to access this funded revenue stream.'},
+      {h:'5-stage expansion', ul:['Stage 1: Brisbane general population — prove anchor meal mechanic','Stage 2: National rollout + NDIS registration','Stage 3: ADHD and neurodivergent expansion','Stage 4: Performance and body composition market','Stage 5: Chronic condition management with clinical partnerships']}
     ]
   },
   {
     num:'04', title:'Business Strategy', color:'#FF6B6B', tier:'Product',
     status:'✓ Complete', statusColor:'#FF6B6B',
     download:'/docs/FuelSync_Business_Strategy.pdf',
-    sub:'Market, revenue model, execution plan',
-    summary:'The strategic case for FuelSync — Australian market sizing (AUD $63–200M, 2024), competitive matrix against MyFitnessPal and Noom, revenue model with projections, 4-phase execution plan, unfair advantages, and KPIs that measure whether the core thesis is working.',
+    sub:'Market, revenue model, competitive matrix, execution plan',
+    summary:'The full strategic case — Australian market sizing with sources, competitive matrix against MyFitnessPal and Noom, revenue model with projections at multiple user milestones, 4-phase execution plan, 5 unfair advantages, and KPIs that directly measure whether the core thesis is working.',
     sections:[
-      {h:'Market opportunity', p:'Australian diet and nutrition app market valued at AUD $63–200M in 2024, growing at 15–41% CAGR. Over half of Australians use digital health tools. MyFitnessPal alone has 280k–370k weekly active Australian users.'},
-      {h:'Revenue model', p:'Three streams: consumer freemium ($14.99/month premium), NDIS-funded FuelSync Neuro ($79/month), and creator marketplace (Year 2). Combined 12-month target: $150k–$250k ARR.'},
-      {h:'Competitive position', ul:['Competitors track calories — FuelSync tracks behaviour','No competitor has a neurodivergent mode with NDIS funding','No competitor shows real local grocery prices','Architecture built around shame-free design — structurally different, not just different features']},
-      {h:'Unfair advantages', ul:['Founder personally proved the thesis — 30kg lost on one meal','Agent-native from day one — incumbents cannot replicate without full rebuild','NDIS pathway gives access to funded revenue stream competitors cannot capture','Behavioural data moat compounds with every user interaction']}
+      {h:'Revenue model', p:'Three streams: consumer freemium ($14.99/month premium), NDIS-funded FuelSync Neuro ($79/month), and creator marketplace (Year 2). 12-month target: $150k–$250k ARR. Year 2 target: $500k+ ARR.'},
+      {h:'Competitive position', ul:['No competitor tracks emotional eating patterns','No competitor has a neurodivergent mode with NDIS funding','No competitor shows real local grocery prices on meal cards','Architecture built around shame-free design — structurally different, not a feature difference']},
+      {h:'Unfair advantages', ul:['Founder personally proved the thesis — 30kg lost on one anchor meal','Agent-native from day one — incumbents cannot replicate without full rebuild','NDIS pathway gives access to funded revenue stream no competitor can capture','Behavioural data moat compounds with every user interaction']},
+      {h:'Key KPIs', ul:['Day-7 retention: 40%+ target','% users finding anchor meal: 15%+ of actives','Spiral recovery rate: 60%+ return after lapse','Free to premium conversion: 8–12%']}
     ]
   },
   {
