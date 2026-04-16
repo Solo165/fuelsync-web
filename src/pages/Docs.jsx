@@ -68,13 +68,15 @@ const DOCS = [
   },
   {
     num:'06', title:'UI as Strategy', color:'#FF6B6B', tier:'Product',
-    status:'Needs rework', statusColor:'#FF6B6B',
-    sub:'Retention, trust, design moat',
-    summary:'The strategic case for why production-grade UX is not aesthetic preference but execution infrastructure — and how FuelSync\'s clean, emotionally safe interface directly drives adherence, trust, and grant eligibility.',
+    status:'✓ Complete', statusColor:'#FF6B6B',
+    download:'/docs/FuelSync_UI_as_Strategy.pdf',
+    sub:'Retention, credibility, emotionally safe design',
+    summary:'The research case for why FuelSync\'s interface quality is a direct retention and credibility driver — not an aesthetic preference. Covers 8 peer-reviewed studies on health app UX, abandonment, emotionally safe design language, and the finding that classical aesthetics directly predict perceived credibility in health apps.',
     sections:[
-      {h:'The industry failure pattern', p:'89% of health apps abandoned within 30 days. Primary cause: UI friction. Overcrowded screens, confusing navigation, form-heavy onboarding, clinical tone.'},
-      {h:'FuelSync\'s UI philosophy', ul:['Clean, spacious feed — minimal clutter, clear hierarchy','Premium visual polish — consistent spacing, smooth micro-interactions','Frictionless onboarding — visual choices, not forms','Vote → Reason → 5★ interaction loop']},
-      {h:'Strategic implications', p:'Premium UI → increased trust → structured behavioural signals → measurable adherence → grant-ready outcomes. UI quality is directly tied to funding viability.'}
+      {h:'UI is the delivery mechanism', p:'70% of lifestyle app users quit within 100 days. Poor UX is one of the six primary abandonment categories (Kidman 2024). In health apps, every UI decision is a retention decision — a confusing screen ends the behaviour change intervention entirely.'},
+      {h:'The credibility finding', p:'Classical aesthetics — orderliness, clarity, simplicity — significantly predict perceived credibility in health apps, while expressive or decorative design does not (Oyibo & Orji, 2017). FuelSync\'s clean monochrome interface is not a style choice. It is the research-backed design for a credible health product.'},
+      {h:'Emotionally safe design', p:'Users in vulnerable states disengage from interfaces that feel clinical, overwhelming, or judgmental (Paay et al., 2021). FuelSync\'s no-red-indicators, calm-copy, privacy-first approach directly addresses the emotional barriers that cause health app abandonment.'},
+      {h:'Design rules', ul:['No mandatory account creation before value delivery','Passive data collection over manual logging','Classical aesthetics — clean, orderly, high contrast','Emotionally safe copy — curious not judgmental','Privacy framed as personalisation, not monitoring']}
     ]
   },
   {
