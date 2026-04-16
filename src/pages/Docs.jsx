@@ -81,32 +81,41 @@ const DOCS = [
   },
   {
     num:'07', title:'Agent Architecture v1.0', color:'#5B9EFF', tier:'Architecture',
-    status:'Draft', statusColor:'#5B9EFF',
-    sub:'Core AI loop',
-    summary:'The technical architecture of FuelSync\'s core AI loop — perception layer, user state model, memory, reasoning engine, and action layer. Built agent-native from day one.',
+    status:'✓ Complete', statusColor:'#5B9EFF',
+    download:'/docs/FuelSync_Agent_Architecture.pdf',
+    sub:'Agentic AI, memory layers, behaviour change',
+    summary:'The technical architecture of FuelSync\'s core AI system — five functional layers from perception through action, a three-tier memory model that builds a proprietary behavioural data moat, and the research evidence showing why agent-native architecture creates a moat incumbents cannot replicate.',
     sections:[
-      {h:'System layers', ul:['Perception: text, photos, voice, behavioural signals, location/time','User state: hunger, emotional state, budget, craving, prep-time reality','Memory: short-term (last meal) + long-term (their meal, spiral patterns)','Reasoning: spiral detection, meal ranking, tone selection, nudge timing','Action: chat coach, 6-meal feed, why-this-fits explanations']},
-      {h:'Data moat', p:'Emotional patterns, craving cycles, budget triggers, prep-time reality, longitudinal behaviour — a dataset incumbents cannot replicate because they never asked for it.'}
+      {h:'Why agent-native matters', p:'Incumbents like MyFitnessPal are retrofitting AI onto legacy calorie-tracking databases. Deloitte (2026) confirms that agentic AI requires tight coupling between agents, product flows, and UX — dramatically easier to build greenfield than retrofit. FuelSync\'s greenfield position is a structural advantage that compounds over time.'},
+      {h:'The memory architecture', ul:['Short-term: current emotional state, today\'s meals, active spiral detection','Long-term: anchor meal identity, trigger patterns, lapse history, budget constraints','Operational state: return rates, streak data, NDIS profile flags, sensory preferences']},
+      {h:'The five agent layers', ul:['Perception — multimodal input converted to structured data','User state model — real-time inference of emotional state, budget, prep time, spiral risk','Memory — three-tier longitudinal behavioural profile','Reasoning engine — spiral detection, meal ranking, tone selection, nudge timing','Action — 6-meal feed, chat coach, spiral breaker, why-this-fits explanations']},
+      {h:'The data moat', p:'Every interaction builds longitudinal data — emotional patterns, craving cycles, spiral recovery trajectories — that cannot be replicated by a later entrant. The longer FuelSync runs, the harder it becomes to displace.'}
     ]
   },
   {
     num:'08', title:'FuelSync Neuro', color:'#5B9EFF', tier:'Architecture',
-    status:'Draft', statusColor:'#5B9EFF',
-    sub:'Sensory-safe, NDIS angle',
-    summary:'A dedicated mode for neurodivergent users — particularly autistic children and families. Same agentic architecture, different constraints: sensory profiling, safe-food tracking, gradual exposure planning.',
+    status:'✓ Complete', statusColor:'#5B9EFF',
+    download:'/docs/FuelSync_Neuro.pdf',
+    sub:'Sensory-safe meals, NDIS pathway, autism research',
+    summary:'The research case for FuelSync\'s neurodivergent extension — peer-reviewed evidence on the scale of food challenges in autistic individuals (45–96% affected by sensory issues), the family impact of mealtime disruption, the gap in existing digital tools, ADHD food behaviour patterns, and the NDIS funding pathway.',
     sections:[
-      {h:'The problem it solves', ul:['Sensory overwhelm around food','Restricted food repertoires','Texture and ingredient aversions','Mealtime stress for families']},
-      {h:'NDIS pathway', p:'FuelSync Neuro positions as a registered NDIS support tool — enabling NDIS-funded subscriptions, provider dashboards, and dietitian collaboration tools.'}
+      {h:'The scale of the problem', p:'Sensory processing difficulties affect 45–96% of autistic people (Autism Spectrum Australia, 2025). 69% of carers report texture influences food selectivity. 92% of parents of autistic children report dinnertime as the most stressful part of their day. No existing app is purpose-built for this population.'},
+      {h:'The gap in existing tools', p:'Current tools (AnyList, Fig, Goblin Tools) address allergy filtering or executive function support — none build an autism-specific sensory profile, maintain a safe-food library by texture and brand, or serve the family unit. The market is entirely uncontested.'},
+      {h:'ADHD food patterns', ul:['Impulsivity drives spur-of-the-moment eating of highly palatable foods','Executive dysfunction makes meal planning hard to sustain','Dopamine dysregulation promotes high-sugar, high-fat food preferences','Poor interoception creates irregular eating patterns']},
+      {h:'NDIS pathway', p:'At $79/month per NDIS participant, price sensitivity is removed entirely — participants fund through their plan. At 200 participants: $189,600 ARR. At 500: $474,000 ARR. No competitor is positioned to access this funded revenue stream.'}
     ]
   },
   {
     num:'09', title:'Platform Systems', color:'#5B9EFF', tier:'Architecture',
-    status:'Draft', statusColor:'#5B9EFF',
-    sub:'Safety, feedback, monitoring',
-    summary:'The operational infrastructure underpinning the FuelSync community — content safety pipeline, upvote/downvote feedback system with intensity ratings, and monitoring framework.',
+    status:'✓ Complete', statusColor:'#5B9EFF',
+    download:'/docs/FuelSync_Platform_Systems.pdf',
+    sub:'Content safety, moderation, community trust',
+    summary:'The operational infrastructure behind FuelSync\'s community — a four-layer hybrid moderation system, structured feedback mechanics, Australia\'s ED Safe safety standards, and the research evidence showing that well-moderated communities drive retention rather than undermining it.',
     sections:[
-      {h:'Community monitoring', ul:['5-stage pipeline: intercept → safety analysis → suggestion detection → publish → product loop','Detects bullying, hate speech, self-harm indicators','Captures ingredient suggestions and feature requests as structured data']},
-      {h:'Feedback system', ul:['Upvote/downvote with optional reason selection','10 upvote + 10 downvote signal categories','Hybrid intensity rating: optional 1–5 star slider']}
+      {h:'The moderation evidence', p:'A 2025 study of 2.6M+ social posts (Lerman et al.) found platform moderation directly determines whether communities become safe or toxic. TikTok\'s strict moderation produced the lowest harm while preserving peer support. Twitter\'s permissive approach produced a 500% rise in self-harm posts. The choice is not moderate OR support — it is both.'},
+      {h:'Four-layer moderation system', ul:['AI pre-screening — NLP, keyword flagging, semantic detection','Risk tiering — high-risk content escalated to human queue immediately','Human review — trained moderators assess context and nuance; 5–10% QA on all AI decisions','Community reporting — user flagging with transparent appeals process']},
+      {h:'ED Safe standards', ul:['No extreme calorie limits, restriction techniques, or harmful weight goals','No thinspo or body-check imagery','Semantic detection for coded language variants','Crisis resource links triggered by high-risk terms','Aligned with NEDC ED Safe Principles and Australia\'s National Eating Disorders Strategy 2023–33']},
+      {h:'Trust and retention', p:'Moderated peer support communities are a net positive for retention when safety is maintained. 86.3% of health app users support independent safety oversight. Transparency about moderation — published guidelines, enforcement statistics, appeals process — is a direct trust builder.'}
     ]
   },
   {
